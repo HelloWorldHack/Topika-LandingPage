@@ -22,7 +22,7 @@ body{
 .navbar-brand{
     color: white;
 }
-.btn-primary{
+.btn-primary {
     
     margin-right: 10px;
     border-radius: 8px;
@@ -32,12 +32,36 @@ body{
     font-family:  Trebuchet MS, sans-serif;
 }
 
-.btn-success{
+.btn-success {
     margin-right: 15px;
     border-radius: 8px;
     font-size: 1.5em;
     text-shadow: 2px 2px 2px black;
     font-family:  Trebuchet MS, sans-serif;
+}
+
+@media (min-width: 38em){
+    
+    .btn-primary {
+    
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    background-color: rgba(0,0,0,0.35);
+    text-shadow: 2px 2px 2px black;
+    font-family:  Trebuchet MS, sans-serif;
+        
+    }
+
+.btn-success {
+    margin-right: 15px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px black;
+    font-family:  Trebuchet MS, sans-serif;
+    
+    }
+
 }
 
 /* banner */
@@ -73,11 +97,20 @@ body{
         text-shadow: 1px 1px 1px rgba(0,0,0,1);
     }
     
+    .row--banner{
+    background-image: url(img/banner_small.png);
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1em;
+}
+
+    
 }
 
 
 .row--banner{
-    background-image: url(img/banner3.png);
+    background-image: url(img/banner_big.png);
 	background-position: center;
 	background-size: cover;
     background-repeat: no-repeat;
@@ -257,7 +290,3 @@ blockquote { margin: 0; }
 	}
     
 }
-
-
-
-
