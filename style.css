@@ -42,7 +42,7 @@ body{
 
 /* banner */
 
-@media (min-width: 40em)
+@media (min-width: 38em)
 {
 	.banner-content
 	{
@@ -132,7 +132,7 @@ body{
 	background-size: contain;
 }
 
-@media (min-width: 40em)
+@media (min-width: 38em)
 {
 	.features { text-align: left; }
 
@@ -163,7 +163,7 @@ h2,h3{
     line-height: 1.1;
 }
 
-@media (min-width: 50em)
+@media (min-width: 38em)
 {
 	.features__board { height: 141px; }
 	.features__tasks { height: 141px; }
@@ -182,7 +182,7 @@ h2,h3{
 	padding-right: 1.5em;
 }
 
-.container-narrow { max-width: 34em; }
+.container-narrow { max-width: 100em; }
 .container-medium { max-width: 52em; }
 .container-wide { max-width: 58em; }
 
